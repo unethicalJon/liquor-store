@@ -1,0 +1,222 @@
+:root{
+    --mainOpacity: rgba(0, 0, 0, 0.55);
+    padding-inline: 15%;
+    background-color: #1d1c1c;
+}
+
+.header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+    opacity: var(--mainOpacity);
+    height: 25em !important;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.main-color {
+background-color: #000 ;
+}
+
+.hero-color{
+  background-color: rgb(206, 158, 87);
+}
+
+.homepage-carousel-title {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+.book-div {
+    width: 480px;
+    height: 384px;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+
+ .nav-link:hover {
+    color:#bc3264 !important;
+ }
+
+ .nav-link {
+    color:white !important;
+ }
+
+ .main-image {
+    height: 550px;
+    object-fit: cover;
+ }
+
+ .card {
+    background-color: #000;
+    text-align: right;
+    padding-left: 2%;
+ }
+
+ .card-img {
+  width: 410px;
+  height: 410px;
+  border-radius: 10%;
+ }
+
+ @font-face {
+   font-family: myFont;
+   src: url(ariata.ttf);
+ }
+
+ @font-face {
+  font-family: Anton;
+  src: url(anton.ttf);
+}
+
+@font-face {
+  font-family: Gala;
+  src: url(gala.ttf);
+}
+
+h1 {
+  font-family: Gala;
+  color:black;
+}
+
+ h3 {
+   font-family: myFont;
+   color: white;
+ }
+
+ h5 {
+   font-family: myFont;
+ }
+
+ a {
+   font-family: myFont;
+ }
+
+ p {
+   font-family: myFont;
+ }
+
+ i {
+  font-family: myFont;
+  font-style: normal;
+}
+
+ a {
+  text-decoration: none;
+}
+
+.normal-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .button {
+  align-items: center;
+  background-color: #000000;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+ }
+
+ .button:hover {
+  background-color:#1d1c1c;
+  color:#ffffff
+ }
+
+ .button-white {
+  align-items: center;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+ }
+
+ .button-white:hover {
+  background-color:#dddddd;
+  color:#000000
+ }
+
+ .button-main {
+  align-items: center;
+  background-color: #ce9e56;
+  border: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+ }
+
+ .button-main:hover {
+  background-color:#dddddd;
+  color:#000000
+ }
+ 
