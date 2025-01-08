@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `Note: Run npm i then ng serve to before running the project`
+
 ### `npm start`
 
 Runs the app in the development mode.\
